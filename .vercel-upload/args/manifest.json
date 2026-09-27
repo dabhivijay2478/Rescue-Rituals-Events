@@ -1,0 +1,217 @@
+[
+  {
+    "file": "api/index.ts",
+    "sha": "c876f9909a8b83457135b997f12716373bf4c768",
+    "fname": "c876f9909a8b83457135b997f12716373bf4c768.json"
+  },
+  {
+    "file": "package-lock.json",
+    "sha": "bf5b8b754eee7af913a95044cb8286693f5dc217",
+    "fname": "bf5b8b754eee7af913a95044cb8286693f5dc217.json"
+  },
+  {
+    "file": "prisma/migrations/20260926181053_init/migration.sql",
+    "sha": "ba8ca3752e9c7181ba10575fd0bda1e23ca99d43",
+    "fname": "ba8ca3752e9c7181ba10575fd0bda1e23ca99d43.json"
+  },
+  {
+    "file": "prisma/migrations/migration_lock.toml",
+    "sha": "7abbf1b5bc2ed90d381336ef493ef3a44c488e3d",
+    "fname": "7abbf1b5bc2ed90d381336ef493ef3a44c488e3d.json"
+  },
+  {
+    "file": "prisma/schema.prisma",
+    "sha": "bee603bf8400d8accf2c54a02a822283ffc699cb",
+    "fname": "bee603bf8400d8accf2c54a02a822283ffc699cb.json"
+  },
+  {
+    "file": "prisma/seed.ts",
+    "sha": "3d2d08e18a6a7354830c9164afecc630a9867a4d",
+    "fname": "3d2d08e18a6a7354830c9164afecc630a9867a4d.json"
+  },
+  {
+    "file": "railway.toml",
+    "sha": "da9bb6b6aac58cf1a4ec336ffe810c6e501eb426",
+    "fname": "da9bb6b6aac58cf1a4ec336ffe810c6e501eb426.json"
+  },
+  {
+    "file": "scripts/spike-rsvp.ts",
+    "sha": "7c91f51a455e6adaa6c8250ade1a151a4fb8e2f4",
+    "fname": "7c91f51a455e6adaa6c8250ade1a151a4fb8e2f4.json"
+  },
+  {
+    "file": "src/app.controller.spec.ts",
+    "sha": "e0284120d0c81986d7a9e6ec3c23abef0f7ca9dd",
+    "fname": "e0284120d0c81986d7a9e6ec3c23abef0f7ca9dd.json"
+  },
+  {
+    "file": "src/app.controller.ts",
+    "sha": "512c2e9f7cfd9d1f8ea0d53de7f3024efea04a3e",
+    "fname": "512c2e9f7cfd9d1f8ea0d53de7f3024efea04a3e.json"
+  },
+  {
+    "file": "src/app.module.ts",
+    "sha": "2de6728fe7ab2f1417e27ad80eff6bb8fb54a841",
+    "fname": "2de6728fe7ab2f1417e27ad80eff6bb8fb54a841.json"
+  },
+  {
+    "file": "src/app.service.ts",
+    "sha": "bc26cfe61395a82b08354ab7c7b7395cd8ecb3fd",
+    "fname": "bc26cfe61395a82b08354ab7c7b7395cd8ecb3fd.json"
+  },
+  {
+    "file": "src/auth/auth.controller.ts",
+    "sha": "e9a4a5475086a9efddd86a5b73f93114742e82f1",
+    "fname": "e9a4a5475086a9efddd86a5b73f93114742e82f1.json"
+  },
+  {
+    "file": "src/auth/auth.module.ts",
+    "sha": "115a7e1e4559b5e43c867ea00895d7176ca26eb8",
+    "fname": "115a7e1e4559b5e43c867ea00895d7176ca26eb8.json"
+  },
+  {
+    "file": "src/auth/auth.service.ts",
+    "sha": "a25f8dad68bb04d0ccc69b2cd9e631e81a7df3be",
+    "fname": "a25f8dad68bb04d0ccc69b2cd9e631e81a7df3be.json"
+  },
+  {
+    "file": "src/auth/dto/auth-response.dto.ts",
+    "sha": "9b9e56ebaf833f5d319ac63752f04d7f26a18fe0",
+    "fname": "9b9e56ebaf833f5d319ac63752f04d7f26a18fe0.json"
+  },
+  {
+    "file": "src/auth/dto/login.dto.ts",
+    "sha": "6206ca3d8ea65924b313b9cfeb8fe4194d2fa546",
+    "fname": "6206ca3d8ea65924b313b9cfeb8fe4194d2fa546.json"
+  },
+  {
+    "file": "src/auth/dto/register.dto.ts",
+    "sha": "917f7cfab3dc8d22b958b6c1557352b5ff1210a6",
+    "fname": "917f7cfab3dc8d22b958b6c1557352b5ff1210a6.json"
+  },
+  {
+    "file": "src/auth/jwt-auth.guard.ts",
+    "sha": "274b8eff132fd288d6817fe07bb82be05fed32d3",
+    "fname": "274b8eff132fd288d6817fe07bb82be05fed32d3.json"
+  },
+  {
+    "file": "src/auth/jwt.strategy.ts",
+    "sha": "4e91a050eef7c7f4aa13c63c01cbe17feb1d06a1",
+    "fname": "4e91a050eef7c7f4aa13c63c01cbe17feb1d06a1.json"
+  },
+  {
+    "file": "src/common/decorators/current-user.decorator.ts",
+    "sha": "74402a8c65a4997a5980a6b42b31cc2798e85230",
+    "fname": "74402a8c65a4997a5980a6b42b31cc2798e85230.json"
+  },
+  {
+    "file": "src/configure-app.ts",
+    "sha": "115db7e23c1882ca3423c6946e04ca48937991b9",
+    "fname": "115db7e23c1882ca3423c6946e04ca48937991b9.json"
+  },
+  {
+    "file": "src/events/dto/create-event.dto.ts",
+    "sha": "d804900a746e9af2dc7e435750f4cd67500a8733",
+    "fname": "d804900a746e9af2dc7e435750f4cd67500a8733.json"
+  },
+  {
+    "file": "src/events/dto/event-response.dto.ts",
+    "sha": "067af69a599c910ec51b94c22f9afb0071a36fda",
+    "fname": "067af69a599c910ec51b94c22f9afb0071a36fda.json"
+  },
+  {
+    "file": "src/events/dto/list-events-query.dto.ts",
+    "sha": "0b3115dfdae710550a44263d5c5b0883d8df77ea",
+    "fname": "0b3115dfdae710550a44263d5c5b0883d8df77ea.json"
+  },
+  {
+    "file": "src/events/dto/update-event.dto.ts",
+    "sha": "ef61b2f9646cb4b5bc7a1d6b9bfd5584cd6222f2",
+    "fname": "ef61b2f9646cb4b5bc7a1d6b9bfd5584cd6222f2.json"
+  },
+  {
+    "file": "src/events/event-owner.guard.ts",
+    "sha": "dba40d1bf6afef91d8a71061e9f010c720579ff0",
+    "fname": "dba40d1bf6afef91d8a71061e9f010c720579ff0.json"
+  },
+  {
+    "file": "src/events/events.controller.ts",
+    "sha": "4bfb338d4dfcb66edc36aa2e8f9db4b71e0633f9",
+    "fname": "4bfb338d4dfcb66edc36aa2e8f9db4b71e0633f9.json"
+  },
+  {
+    "file": "src/events/events.module.ts",
+    "sha": "66f968cbda8236367db8558a36afcf24b8fe7ef6",
+    "fname": "66f968cbda8236367db8558a36afcf24b8fe7ef6.json"
+  },
+  {
+    "file": "src/events/events.service.ts",
+    "sha": "a6548e404a09284c046b6549982cf662b6fcf769",
+    "fname": "a6548e404a09284c046b6549982cf662b6fcf769.json"
+  },
+  {
+    "file": "src/main.ts",
+    "sha": "33acbe46af0583332844dd7e91db254da379ba5e",
+    "fname": "33acbe46af0583332844dd7e91db254da379ba5e.json"
+  },
+  {
+    "file": "src/prisma/prisma.module.ts",
+    "sha": "e486e4e1ea0ffb25b6b59861c1d3de1f6211e3be",
+    "fname": "e486e4e1ea0ffb25b6b59861c1d3de1f6211e3be.json"
+  },
+  {
+    "file": "src/prisma/prisma.service.ts",
+    "sha": "5f7fe3465b28d52ddb423ab8fa01e5d6c35d7d3b",
+    "fname": "5f7fe3465b28d52ddb423ab8fa01e5d6c35d7d3b.json"
+  },
+  {
+    "file": "src/rsvp/dto/list-attendees-query.dto.ts",
+    "sha": "b28cbcd11a4e15c72f57edb5e0c830633f35d8fc",
+    "fname": "b28cbcd11a4e15c72f57edb5e0c830633f35d8fc.json"
+  },
+  {
+    "file": "src/rsvp/dto/rsvp-response.dto.ts",
+    "sha": "6b625be11f15e35b07e2b1905e35eb0f61bfbb77",
+    "fname": "6b625be11f15e35b07e2b1905e35eb0f61bfbb77.json"
+  },
+  {
+    "file": "src/rsvp/rsvp.controller.ts",
+    "sha": "4ac2833959f312ef7945c68a0b4c64b1b84491c6",
+    "fname": "4ac2833959f312ef7945c68a0b4c64b1b84491c6.json"
+  },
+  {
+    "file": "src/rsvp/rsvp.module.ts",
+    "sha": "c4955745473aaded5c71423ffd4fbddb21c466de",
+    "fname": "c4955745473aaded5c71423ffd4fbddb21c466de.json"
+  },
+  {
+    "file": "src/rsvp/rsvp.service.ts",
+    "sha": "a2532808033cf3cc3d0b1a469bb5f75f412fef45",
+    "fname": "a2532808033cf3cc3d0b1a469bb5f75f412fef45.json"
+  },
+  {
+    "file": "test/app.e2e-spec.ts",
+    "sha": "89944eae09055bb8f06b88d118af14e15f8ef58d",
+    "fname": "89944eae09055bb8f06b88d118af14e15f8ef58d.json"
+  },
+  {
+    "file": "test/jest-e2e.json",
+    "sha": "b72413057cdba0393f6859af08b8d1e78f93078a",
+    "fname": "b72413057cdba0393f6859af08b8d1e78f93078a.json"
+  },
+  {
+    "file": "tsconfig.build.json",
+    "sha": "71d53db85114af90f829205ff62ce7a44f307424",
+    "fname": "71d53db85114af90f829205ff62ce7a44f307424.json"
+  },
+  {
+    "file": "tsconfig.json",
+    "sha": "358f14fdb66f6842e1da1959a1f10d41300fa11b",
+    "fname": "358f14fdb66f6842e1da1959a1f10d41300fa11b.json"
+  },
+  {
+    "file": "vercel.json",
+    "sha": "b05cd6c910bf648458f439fefbef15cf73ad715e",
+    "fname": "b05cd6c910bf648458f439fefbef15cf73ad715e.json"
+  }
+]

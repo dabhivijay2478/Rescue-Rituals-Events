@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  createdAt DateTime @default(now())
+
+  events Event[]
+  rsvps  Rsvp[]
+}
+
+model Event {
+  id          String   @id @default(uuid())
+  title       String
+  description String
+  location    String
+  startTime   DateTime
+  endTime     DateTime
+  capacity    Int?
+  goingCount  Int      @default(0) @map("going_count")
+  createdById String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  createdBy User   @relation(fields: [createdById], references: [id], onDelete: Cascade)
+  rsvps     Rsvp[]
+
+  @@index([startTime])
+  @@index([endTime])
+}
+
+enum RsvpStatus {
+  GOING
+  WAITLISTED
+  CANCELLED
+}
+
+model Rsvp {
+  id        String     @id @default(uuid())
+  eventId   String
+  userId    String
+  status    RsvpStatus
+  createdAt DateTime   @default(now())
+
+  event Event @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, userId])
+  @@index([eventId, status, createdAt])
+}

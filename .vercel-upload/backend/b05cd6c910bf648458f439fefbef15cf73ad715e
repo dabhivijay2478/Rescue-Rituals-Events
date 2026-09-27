@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "rescue-rituals-api",
+  "buildCommand": "prisma generate && prisma migrate deploy && nest build",
+  "installCommand": "npm install",
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "functions": {
+    "api/index.ts": {
+      "maxDuration": 60
+    }
+  }
+}
